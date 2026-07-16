@@ -187,3 +187,67 @@ button:hover {
     font-size:14px;
 
 }
+@media (max-width:600px){
+
+    .box{
+        width:90%;
+        padding:25px;
+        border-radius:25px;
+    }
+
+
+    #title{
+        font-size:28px;
+    }
+
+
+    #typing{
+        font-size:18px;
+        line-height:1.6;
+    }
+
+
+    .buttons button{
+
+        width:100%;
+        font-size:17px;
+        padding:15px;
+        margin:8px 0;
+
+    }
+
+
+    #response{
+
+        font-size:18px;
+
+    }
+
+}
+@media (max-width:600px){
+
+    #comfortArea,
+    #gameBox,
+    #emotionArea{
+
+        height:350px !important;
+
+    }
+
+
+    #heart{
+
+        font-size:120px;
+
+    }
+
+
+    .goodEmotion,
+    .badEmotion{
+
+        font-size:18px;
+        padding:15px;
+
+    }
+
+}
