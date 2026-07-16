@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(135deg, #ffd6e0, #d6f0ff);
+    text-align: center;
+    overflow: hidden;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 420px;
+    margin: 80px auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 2;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 8px;
+    border: none;
+    border-radius: 20px;
+    background: #ff8fab;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff4d79;
+    transform: scale(1.1);
+}
+
+#response {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Floating hearts */
+.hearts::before, .hearts::after {
+    content: "💖 💙 💜 💕 💗";
+    position: absolute;
+    width: 100%;
+    animation: float 10s linear infinite;
+    opacity: 0.5;
+}
+
+.hearts::after {
+    animation-delay: 5s;
+}
+
+@keyframes float {
+    from { transform: translateY(100vh); }
+    to { transform: translateY(-10vh); }
+}
+
+/* Mini Game */
+#heart {
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#heart:hover {
+    transform: scale(1.2);
+}
+#emotionArea{
+    height:260px;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.goodEmotion,
+.badEmotion{
+
+    position:absolute;
+    padding:12px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.3s;
+    animation:float 2s infinite;
+
+}
+
+
+.goodEmotion{
+    background:#9cffb0;
+}
+
+
+.badEmotion{
+    background:#ff8c8c;
+}
+
+
+#heart{
+    font-size:90px;
+}
+
+
+@keyframes float{
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+}
+.secret-message{
+    text-align:center;
+    margin-top:25px;
+}
+
+
+.secret-btn{
+
+    background:#6fa8ff;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:25px;
+    font-size:15px;
+    cursor:pointer;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+    transition:0.3s;
+}
+
+
+.secret-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+
+#hiddenMsg{
+
+    display:none;
+
+    margin-top:15px;
+
+    font-size:17px;
+
+    color:#4b6cff;
+
+    animation:fadeIn 1s ease;
+
+}
+
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+#musicBtn{
+
+    position:fixed;
+    bottom:20px;
+    right:20px;
+
+    background:#6fa8ff;
+    color:white;
+
+    border:none;
+    padding:12px 18px;
+
+    border-radius:30px;
+    cursor:pointer;
+
+    font-size:14px;
+
+}

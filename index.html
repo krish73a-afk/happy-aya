@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For You 💙</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<div class="box">
+    <h2 id="title">Hey you… 💙</h2>
+    <p id="typing"></p>
+
+    <div class="buttons">
+        <button onclick="showOption('comfort')">I need comfort 🫂</button>
+        <button onclick="showOption('distraction')">Distract me 😤</button>
+        <button onclick="showOption('smile')">Make me smile 😊</button>
+        <button onclick="showOption('heal')">
+❤️ Heal My Heart
+</button>
+<div class="secret-message">
+    <button onclick="revealMessage()" class="secret-btn">
+        💌 Reveal Hidden Message
+    </button>
+
+    <p id="hiddenMsg">
+        Also… I made all this just to see you smile again hehe... 💙
+    </p>
+</div>
+    </div>
+
+    <div id="response"></div>
+
+    <!-- Mini Game -->
+<div id="game" class="hidden">
+</div>
+    </div>
+</div>
+
+<!-- Music -->
+<audio id="bgMusic" loop>
+    <source src="https://open.spotify.com/track/1U0R5wcfDxjWgk6Bqz5rhd?si=cd0d4c4f727d45ce" type="audio/mp3">
+</audio>
+
+<button id="musicBtn" onclick="toggleMusic()">
+    🎵 Play Music
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
