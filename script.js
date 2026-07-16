@@ -37,7 +37,7 @@ function startComfortGame() {
     comfortScore = 0;
 
     document.getElementById("response").innerHTML = `
-        <p>Catch 5 hugs… you deserve them 🫂💙</p>
+        <p>Catch 10 hugs… you deserve them 🫂💙</p>
         <div id="comfortArea" style="height:260px; position:relative; overflow:hidden;"></div>
         <p id="score">Hugs: 0 / 10</p>
     `;
