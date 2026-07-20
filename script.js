@@ -135,7 +135,7 @@ const snackTypes = ["🍕","🍩","🍪","🍫","🍟","🧁"];
 
 function startDistractGame() {
     document.getElementById("response").innerHTML = `
-        <p>Catch 10 snacks… take a little break 🍪💙</p>
+        <p>Catch 20 snacks… take a little break 🍪💙</p>
         
         <div id="gameBox" style="
             height:260px;
