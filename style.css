@@ -250,4 +250,12 @@ button:hover {
 
     }
 
+}.splash{
+    font: size 10px;
+    color: #ffd900c7;
+    stroke: 1px #000000eb;
+    outline: 1px #000000eb;
+    animation: float 1.5s ease-in-out infinite alternate;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
 }
