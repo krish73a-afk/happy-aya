@@ -252,7 +252,7 @@ button:hover {
 
 }.splash{
     font: size 10px;
-    color: #ffd900c7;
+    color: #ff0000c7;
     stroke: 1px #000000eb;
     outline: 1px #000000eb;
     animation: float 1.5s ease-in-out infinite alternate;
